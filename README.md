@@ -13,3 +13,6 @@
       return ['vue-style-loader'].concat(loaders)
     }
   }
+  
+  坑二：
+  vue项目的SPA中的style中使用scoped限定时，需要安装node-sass和sass-loader两个依赖
